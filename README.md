@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Dockerfiles where the requirements.txt file is not available during the pip3 install phase. The error is caused by the order of instructions in the Dockerfile.  The solution shows the correct order to ensure pip3 can access requirements.txt.
